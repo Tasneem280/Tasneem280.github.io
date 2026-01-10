@@ -1,26 +1,31 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #170824;
+    background-color: #BDE8F5;
     margin: 0;
     padding: 0;
 }
 
 header, footer {
-    background-color: #c11066;
+    background-color: #0F2854;
     color: white;
     text-align: center;
     padding: 20px;
 }
+header p {
+    color: white;
+}
 
 section {
-    background-color: white;
+    background-color: #4988C4;
     margin: 20px;
     padding: 20px;
     border-radius: 8px;
+    color: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 h1, h2, h3 {
-    color: #333;
+    color: #F7F6D3;
 }
 
 header h1 {
@@ -37,7 +42,7 @@ table {
 }
 
 table, th, td {
-    border: 1px solid #999;
+    border: 1px solid black;
 }
 
 th, td {
@@ -47,9 +52,14 @@ th, td {
 
 a {
     text-decoration: none;
-    color: #0066cc;
+    color: #050E3C;
 }
 
 a:hover {
     text-decoration: underline;
 }
+
+/* section:hover {
+    transform: translateY(-3px) scale(1.01);
+    box-shadow: 0 8px 20px rgba(28, 45, 54, 0.2);
+} */
